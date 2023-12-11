@@ -1,0 +1,132 @@
+
+/* HEADER */
+
+.header-section .navbar-section{
+    background-color: #2C3E50 !important;
+}
+
+/* BANNER */
+
+.banner-section{
+    background-color: #1ABC9C;
+}
+
+.banner-section .divider-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section .divider-item{
+    max-width: 30vw;
+    min-width: 10vw;
+    margin: 1rem;
+}
+
+.banner-section i{
+    font-size: 3rem;
+}
+
+/* PORTFOLIO */
+
+.portfolio-section .boxes-container{
+    width: 60vw;
+}
+
+.portfolio-section .boxes{
+    position: relative;
+}
+
+.portfolio-section .boxes span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.portfolio-section .boxes:hover span{
+    opacity: 1;
+}
+
+.portfolio-section .boxes:hover img.layout-image{
+    opacity: 0.5;
+}
+.portfolio-section .divider-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-section .divider-item {
+    max-width: 30vw;
+    min-width: 10vw;
+    margin: 1rem;
+}
+
+.portfolio-section i{
+    font-size: 3rem;
+}
+
+.portfolio-section .divider-item,.portfolio-section h1, .portfolio-section i{
+    color: #2C3E50;
+    border-color: #2C3E50 !important;
+}
+
+/* ABOUT */
+
+.about-section{
+    background-color: #1ABC9C;
+}
+
+.about-section .divider-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .divider-item {
+    max-width: 30vw;
+    min-width: 10vw;
+    margin: 1rem;
+}
+
+.about-section i.star-icon{
+    font-size: 3rem;
+}
+
+/* CONTACT ME */
+
+.contactme-section .divider-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme-section .divider-item {
+    max-width: 30vw;
+    min-width: 10vw;
+    margin: 1rem;
+}
+
+.contactme-section i{
+    font-size: 3rem;
+}
+
+.contactme-section .divider-item,.contactme-section h1, .contactme-section i{
+    color: #2C3E50;
+    border-color: #2C3E50 !important;
+}
+
+/* FOOTER */
+
+.footer-section{
+    background-color: #2C3E50;
+}
+
+/* COPYRIGHT */
+
+.copyright-section{
+    background-color: #1A252F;
+    font-size: .5rem;
+}

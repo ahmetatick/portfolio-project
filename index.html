@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header-section fixed-top">
+      <nav class="navbar-section navbar">
+        <div class="container-fluid justify-content-evenly">
+          <a class="navbar-brand text-white nav-item">AHMET ATIK</a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#portfolio-section"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="#about-section"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="#contactme-section"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner-section pt-5">
+      <div class="text-center p-5">
+        <img
+          src="assets/img/avatar.svg"
+          class="rounded img-fluid"
+          alt="avatar"
+          width="20%"
+        />
+      </div>
+      <h1 class="text-center text-white">START BOOTSTRAP</h1>
+      <div class="divider-items">
+        <hr class="divider-item border border-white border-3 opacity-100" />
+        <i class="bi bi-star-fill text-white"></i>
+        <hr class="divider-item border border-white border-3 opacity-100" />
+      </div>
+      <div class="text-center text-white pt-1 pb-5 fs-6">
+        Graphic Artist - Web Designer - Illustrator
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section
+      class="portfolio-section container-fluid p-5 d-flex flex-column align-items-center"
+      id="portfolio-section"
+    >
+      <h1 class="text-center">PORTFOLIO</h1>
+      <div class="divider-items pb-5">
+        <hr class="divider-item border border-dark border-3 opacity-100" />
+        <i class="bi bi-star-fill"></i>
+        <hr class="divider-item border border-dark border-3 opacity-100" />
+      </div>
+      <div class="boxes-container row g-3">
+        <div class="boxes box1 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box1-modal"
+            src="./assets/img/portfolio/cabin.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box1-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/cabin.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes box2 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box2-modal"
+            src="./assets/img/portfolio/cake.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box2-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/cake.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes box3 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box3-modal"
+            src="./assets/img/portfolio/circus.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box3-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/circus.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes box4 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box4-modal"
+            src="./assets/img/portfolio/game.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box4-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/game.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes box5 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box5-modal"
+            src="./assets/img/portfolio/safe.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box5-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/safe.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="boxes box6 col-4 rounded">
+          <span><i class="bi bi-plus-circle"></i></span>
+          <img
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#box6-modal"
+            src="./assets/img/portfolio/submarine.png"
+            alt=""
+            class="layout-image img-fluid rounded"
+          />
+          <div
+            id="box6-modal"
+            class="modal"
+            tabindex="-1"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    src="./assets/img/portfolio/submarine.png"
+                    alt=""
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="modal-footer mx-auto">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section
+      class="about-section pt-5 pb-5"
+      id="about-section"
+    >
+      <h1 class="text-center text-white">ABOUT</h1>
+      <div class="divider-items">
+        <hr class="divider-item border border-white border-3 opacity-100" />
+        <i class="star-icon bi bi-star-fill text-white"></i>
+        <hr class="divider-item border border-white border-3 opacity-100" />
+      </div>
+      <div class="paragraphs row">
+        <div class="col-3"></div>
+        <div class="paragraph col-3 text-white">
+          Freelancer is a free bootstrap theme created by Start Bootstrap. The
+          download includes the complete sourse files including HTML, CSS, and
+          JavaScript as well as optional SASS stylesheets for easy
+          costumization.
+        </div>
+        <div class="paragraph col-3 text-white">
+          You can create yout own custom avatar for the masthead, change the
+          icon in the dividers, and add your email address to the contact form
+          to make it full functional.
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="d-grid gap-2 col-2 mx-auto mt-5">
+        <button
+          class="btn btn-outline-light"
+          type="button"
+        >
+          <i class="bi bi-cloud-arrow-down-fill"></i>
+          Free Download!
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT ME -->
+
+    <section
+      class="contactme-section pt-5"
+      id="contactme-section"
+    >
+      <h1 class="text-center">CONTACT ME</h1>
+      <div class="divider-items">
+        <hr class="divider-item border border-white border-3 opacity-100" />
+        <i class="bi bi-star-fill"></i>
+        <hr class="divider-item border border-white border-3 opacity-100" />
+      </div>
+      <div class="form-control-section d-grid gap-4 col-5 mt-5 mb-5 mx-auto">
+        <input
+          class="form-control rounded-0 border-0 border-bottom"
+          type="text"
+          placeholder="Full name"
+          aria-label=".form-control-lg example"
+        />
+        <input
+          class="form-control rounded-0 border-0 border-bottom"
+          type="text"
+          placeholder="Email address"
+          aria-label=".form-control-lg example"
+        />
+        <input
+          class="form-control rounded-0 border-0 border-bottom"
+          type="text"
+          placeholder="Phone number"
+          aria-label=".form-control-lg example"
+        />
+        <textarea
+          class="form-control rounded-0 border-0 border-bottom"
+          type="text"
+          placeholder="Message"
+          aria-label=".form-control-lg example"
+        ></textarea>
+        <div class="d-grid gap-2 col-2 mx-auto mt-5">
+          <button
+            class="btn btn-outline-dark"
+            type="button"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer-section row p-5 text-white">
+      <div class="col-2"></div>
+      <div class="col-8 row">
+        <div class="location col-4 text-center">
+          <h5 class="text-center p-3">LOCATION</h5>
+          77 City Centre Drive, Suite 600 Mississauga, ON L5B 1M5
+        </div>
+        <div class="around-the-web col-4 text-center">
+          <h5 class="text-center p-3">AROUND THE WEB</h5>
+          <i class="bi bi-facebook p-1"></i><i class="bi bi-twitter p-1"></i
+          ><i class="bi bi-linkedin p-1"></i><i class="bi bi-globe p-1"></i>
+        </div>
+        <div class="about-freelancer col-4">
+          <h5 class="text-center p-3">ABOUT FREELANCER</h5>
+          Freeland is a free to use MIT licensed Bootstrap theme created by
+          <a
+            href="https://getbootstrap.com/"
+            class="text-success"
+            >Start Bootstrap</a
+          >
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </footer>
+
+    <!-- COPYRIGHT -->
+
+    <section class="copyright-section text-white text-center p-3">
+      Copyright <i class="bi bi-c-circle"></i> Your Website 2023
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
